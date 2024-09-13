@@ -26,12 +26,20 @@ nav ul li {
   margin: 0 20px;
 }
 
+/* Navigation Links */
 nav ul li a {
+  color: #333; /* Default color */
   text-decoration: none;
-  color: #333;
   font-weight: 600;
   font-size: 18px;
+  transition: color 0.3s ease; /* Smooth transition */
 }
+
+/* Hover Effect */
+nav ul li a:hover {
+  color: #00f7ff; /* Color change on hover (blue in this case) */
+}
+
 
 /* About Section Styling */
 .about-section {
