@@ -1,52 +1,89 @@
-/* General Section Styling */
-.projects-section {
+/* General Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, #4facfe, #00f2fe); /* Light blue gradient */
+  margin: 0;
+  padding: 0;
+  color: #333; /* Default text color */
+}
+
+/* Header Styling */
+header {
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* About Section Styling */
+.about-section {
+  background: white; /* White background */
+  border-radius: 15px; /* Rounded corners */
   padding: 40px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 40px auto; /* Center the section with margin */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
 }
 
-/* Individual Project Item Styling */
-.project-item {
-  background-color: rgba(255, 255, 255, 0.9); /* Light background with slight transparency */
-  padding: 20px;
-  margin-bottom: 30px;
-  border-radius: 15px; /* Rounded corners for a softer look */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect for depth */
-  border-left: 5px solid rgb(2, 175, 249); /* Light blue accent border on the left */
+.about-text {
+  flex: 1;
+  margin-right: 20px; /* Space between text and image */
 }
 
-.project-item h2 {
-  color: #333; /* Dark grey text for headers */
-  margin-bottom: 10px;
+.about-text h1 {
+  font-size: 3em;
+  color: #f4f4f4; /* White color for the 'Welcome!' text */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Soft text shadow */
+  margin: 0;
 }
 
-.project-item p {
-  font-size: 16px;
-  line-height: 1.8;
-  color: #555; /* Medium grey text for paragraphs */
+.about-text h2 {
+  font-size: 2em;
+  color: #333;
+  margin-top: 10px;
 }
 
-/* Button Styling for Repo Links */
-.project-item a.repo-link {
-  display: inline-block;
-  padding: 10px 20px;
-  margin-top: 20px;
-  background-color: rgb(2, 175, 249); /* Blue button background */
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease; /* Smooth hover effect */
+.about-text p {
+  line-height: 1.6;
+  color: #555;
+  font-size: 1.1em;
+  margin-bottom: 20px;
 }
 
-.project-item a.repo-link:hover {
-  background-color: rgb(0, 150, 200); /* Darker blue on hover */
+/* Profile Photo Styling */
+.profile-photo {
+  width: 300px;
+  height: auto;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
 }
 
 /* Footer Styling */
 footer {
-  margin-top: 40px; /* Add space before footer */
   text-align: center;
   padding: 20px;
-  background-color: #333; /* Dark grey footer background */
-  color: white; /* White footer text */
+  background-color: #333;
+  color: white;
+  margin-top: 40px;
 }
