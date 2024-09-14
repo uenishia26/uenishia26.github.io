@@ -41,6 +41,9 @@ nav ul li a:hover {
 }
 
 
+
+
+
 /* Projects Section Styling */
 .projects-section {
   background: #f4f4f4; /* Light gray background */
@@ -59,17 +62,19 @@ nav ul li a:hover {
 /* Individual Project Item Styling */
 .project-item {
   background: #ffffff; /* White background for each project card */
-  border-radius: 10px; /* Rounded corners */
-  padding: 20px;
-  margin: 20px auto; /* Spacing between project cards */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  max-width: 800px; /* Center each card */
-  text-align: left; /* Align text to the left */
+  border-radius: 15px; /* Rounded corners */
+  padding: 30px;
+  margin: 20px 0; /* Spacing between project cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  max-width: 800px; /* Limit the width of each card */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left; /* Align text to the left for a card-like look */
 }
 
 /* Project Title Styling */
 .project-item h2 {
-  font-size: 1.8em;
+  font-size: 2em;
   color: #333;
   margin-bottom: 10px;
 }
@@ -77,7 +82,7 @@ nav ul li a:hover {
 /* Project Date and Association Styling */
 .project-item p {
   color: #555;
-  font-size: 1em;
+  font-size: 1.1em;
   line-height: 1.6;
   margin: 10px 0;
 }
@@ -88,16 +93,20 @@ nav ul li a:hover {
   margin-top: 15px;
   padding: 10px 20px;
   color: #ffffff;
-  background-color: #007bff; /* Blue background */
-  border-radius: 5px; /* Rounded corners */
+  background-color: #00f7ff; /* Consistent light blue background */
+  border-radius: 15px; /* Rounded corners */
   text-decoration: none;
   font-weight: 600;
   transition: background-color 0.3s ease; /* Smooth transition */
 }
 
 .repo-link:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #0077ff; /* Slightly darker blue on hover */
 }
+
+
+
+
 
 
 
