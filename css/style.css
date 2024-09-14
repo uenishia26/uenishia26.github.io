@@ -108,6 +108,87 @@ nav ul li a:hover {
 
 
 
+/* Work Experience Section Styling */
+.work-experience-section {
+  background: #f4f4f4; /* Light gray background */
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 40px auto; /* Center the section */
+  text-align: center;
+}
+
+.work-experience-section h1 {
+  font-size: 3em;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+/* Individual Work Experience Item Styling */
+.work-item {
+  background: #ffffff; /* White background for each work experience box */
+  border-radius: 15px; /* Rounded corners */
+  padding: 30px;
+  margin: 20px auto; /* Spacing between work experience boxes */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  max-width: 800px; /* Center each box */
+  text-align: left; /* Align text to the left for a more natural look */
+}
+
+/* Work Item Title Styling */
+.work-item h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Work Item Details (Location, Dates) */
+.work-item p {
+  color: #555;
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+/* Subheadings (Role and Achievements) */
+.work-item .subheading {
+  font-weight: bold;
+  color: #333;
+  margin-top: 20px;
+}
+
+/* Bullet Points for Achievements */
+.work-item ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.work-item ul li {
+  color: #555;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .work-experience-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .work-item {
+    margin: 20px;
+  }
+}
+
+
+
+
+
+
+
+
 
 
 
