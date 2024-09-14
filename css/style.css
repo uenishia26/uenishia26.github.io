@@ -41,15 +41,13 @@ nav ul li a:hover {
 }
 
 
-
-
 /* Projects Section Styling */
 .projects-section {
   background: #f4f4f4; /* Light gray background */
-  padding: 60px 20px; /* More padding for a spacious layout */
+  padding: 60px 20px;
   max-width: 1200px;
   margin: 40px auto; /* Center the section */
-  text-align: center; /* Center align content */
+  text-align: center;
 }
 
 .projects-section h1 {
@@ -61,73 +59,45 @@ nav ul li a:hover {
 /* Individual Project Item Styling */
 .project-item {
   background: #ffffff; /* White background for each project card */
-  border-radius: 15px; /* Rounded corners */
-  padding: 30px;
-  max-width: 350px;
-  margin: 20px auto; /* Center each card */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Softer shadow for a card-like effect */
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center the content inside */
-  text-align: center; /* Center text */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
-}
-
-.project-item:hover {
-  transform: translateY(-10px); /* Lift the card on hover */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px;
+  margin: 20px auto; /* Spacing between project cards */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 800px; /* Center each card */
+  text-align: left; /* Align text to the left */
 }
 
 /* Project Title Styling */
 .project-item h2 {
   font-size: 1.8em;
   color: #333;
-  margin: 0 0 10px;
+  margin-bottom: 10px;
 }
 
-/* Project Text Styling */
+/* Project Date and Association Styling */
 .project-item p {
   color: #555;
   font-size: 1em;
   line-height: 1.6;
+  margin: 10px 0;
 }
 
 /* Link Button Styling */
 .repo-link {
   display: inline-block;
-  margin-top: 20px;
-  padding: 10px 25px;
-  color: white;
-  background-color: #00f7ff; /* Light blue background */
-  border-radius: 25px; /* Rounded button */
+  margin-top: 15px;
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #007bff; /* Blue background */
+  border-radius: 5px; /* Rounded corners */
   text-decoration: none;
   font-weight: 600;
-  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  transition: background-color 0.3s ease; /* Smooth transition */
 }
 
 .repo-link:hover {
-  background-color: #0077ff; /* Darker blue on hover */
-  transform: scale(1.05); /* Slightly enlarge the button on hover */
+  background-color: #0056b3; /* Darker blue on hover */
 }
-
-/* Responsive Design: Two-column layout for larger screens */
-@media (min-width: 768px) {
-  .projects-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .project-item {
-    margin: 20px;
-  }
-}
-
-
-
-
-
-
 
 
 
