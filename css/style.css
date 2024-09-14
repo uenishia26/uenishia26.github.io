@@ -41,10 +41,12 @@ nav ul li a:hover {
 }
 
 
+
+
 /* Projects Section Styling */
 .projects-section {
   background: #f4f4f4; /* Light gray background */
-  padding: 40px;
+  padding: 60px 20px; /* More padding for a spacious layout */
   max-width: 1200px;
   margin: 40px auto; /* Center the section */
   text-align: center; /* Center align content */
@@ -58,26 +60,27 @@ nav ul li a:hover {
 
 /* Individual Project Item Styling */
 .project-item {
-  background: #ffffff; /* White background for each project bubble */
-  border-radius: 50%; /* Circular shape */
-  padding: 40px;
-  max-width: 300px;
-  margin: 20px auto; /* Center each bubble */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  background: #ffffff; /* White background for each project card */
+  border-radius: 15px; /* Rounded corners */
+  padding: 30px;
+  max-width: 350px;
+  margin: 20px auto; /* Center each card */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Softer shadow for a card-like effect */
   display: flex;
   flex-direction: column;
   align-items: center; /* Center the content inside */
   text-align: center; /* Center text */
-  transition: transform 0.3s ease; /* Smooth hover effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
 }
 
 .project-item:hover {
-  transform: scale(1.05); /* Slightly enlarge on hover */
+  transform: translateY(-10px); /* Lift the card on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
 }
 
 /* Project Title Styling */
 .project-item h2 {
-  font-size: 1.5em;
+  font-size: 1.8em;
   color: #333;
   margin: 0 0 10px;
 }
@@ -86,25 +89,46 @@ nav ul li a:hover {
 .project-item p {
   color: #555;
   font-size: 1em;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 /* Link Button Styling */
 .repo-link {
   display: inline-block;
   margin-top: 20px;
-  padding: 10px 20px;
+  padding: 10px 25px;
   color: white;
   background-color: #00f7ff; /* Light blue background */
-  border-radius: 25px; /* Rounded corners */
+  border-radius: 25px; /* Rounded button */
   text-decoration: none;
   font-weight: 600;
-  transition: background-color 0.3s ease; /* Smooth transition */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
 }
 
 .repo-link:hover {
   background-color: #0077ff; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
 }
+
+/* Responsive Design: Two-column layout for larger screens */
+@media (min-width: 768px) {
+  .projects-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .project-item {
+    margin: 20px;
+  }
+}
+
+
+
+
+
+
+
 
 
 
